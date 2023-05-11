@@ -13,13 +13,19 @@
        <img alt="Pytorch" src="https://img.shields.io/badge/Youtube-playlists-green.svg">
     </a>    
      <a href="https://github.com/ardalcar">
-       <img alt="Pytorch" src="https://img.shields.io/badge/git-repositories-blue.svg">
+       <img alt="Pytorch" src="https://img.shields.io/github/gist/stars/2a09bc1qk55vk7wjgzg3pmxlh59rv5dlgewd9jem5nrt4w?style=social">
     </a>    
 </p>
 
 # Article list
 
 [R Linares, R Furfaro, V Reddy: Space objects classification via light-curve measurements using deep convolutional neural networks. The Journal of the Astronautical Sciences, (2020) - Springer](https://doi.org/10.1007/s40295-019-00208-w) 
+
+La ricerca parla di classificazione attraverso la Convolutional Neural Network (CNN)
+* Test con 1000 LC simulate per 4 classi di satelliti (frammenti, rocket body, prismi, cuboidi)
+* Test con 500 LC vere per 3 classi (Debris, Rocket body, Sat Attivo)
+Il dataset è pubblico ma su un sito russo.
+Attinenza intorno al 60% 
 
 ---
 
