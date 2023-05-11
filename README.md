@@ -19,7 +19,7 @@
 
 # Article list
 
-[R Linares, R Furfaro, V Reddy: Space objects classification via light-curve measurements using deep convolutional neural networks. The Journal of the Astronautical Sciences, (2020) - Springer](https://doi.org/10.1007/s40295-019-00208-w) 
+[R. Linares, R. Furfaro, V. Reddy: Space objects classification via light-curve measurements using deep convolutional neural networks. The Journal of the Astronautical Sciences, (2020) - Springer](https://doi.org/10.1007/s40295-019-00208-w) 
 
 La ricerca parla di classificazione attraverso la Convolutional Neural Network (CNN)
 * Test con 1000 LC simulate per 4 classi di satelliti (frammenti, rocket body, prismi, cuboidi)
@@ -27,6 +27,11 @@ La ricerca parla di classificazione attraverso la Convolutional Neural Network (
 Il dataset è pubblico ma su un sito russo.
 Attinenza intorno al 60% 
 
+[G. P. Badura, C. R. Valenta, B. Gunter: Convolutional Neural Networkis for Inference of Space Object Attitude Status. The Journal of the Astronautical Sciences, (2022) - Springer](https://doi.org/10.1007/s40295-022-00309-z) 
+
+La ricerca parla di classificazione attraverso la Convolutional Neural Network (CNN)
+* Test con 7500 LC simulate per 4 classi di manovre (puro rotolamento, accelerazione in rotazione, stabilizzazione e inattivo)
+Attinenza sempre intorno al 60%
 ---
 
 The book of why <br>
