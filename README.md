@@ -17,7 +17,11 @@
     </a>    
 </p>
 
-# Books - PDF
+# Article list
+
+[R Linares, R Furfaro, V Reddy: Space objects classification via light-curve measurements using deep convolutional neural networks. The Journal of the Astronautical Sciences, (2020) - Springer](https://doi.org/10.1007/s40295-019-00208-w) 
+
+---
 
 The book of why <br>
 978-0-465-09760-9<br><br>  
