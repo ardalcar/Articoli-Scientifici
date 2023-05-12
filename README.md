@@ -19,7 +19,18 @@
 
 # Article list
 
-[S. Mahendran H. Ali R. Vidal: 3D Pose Regression using Convolutional Neural Networks. Proceedings of the IEEE International Conference on Computer Vision Workshops(2017)](https://arxiv.org/abs/1708.05628)
+1. [Allworth, J.; Windrim, L.; Bennett, J.; Bryson, M. A transfer learning approach to space debris classification using observational light curve data. Acta Astronaut. (2021)](https://www.sciencedirect.com/science/article/pii/S0094576521000588)
+Correlato all'articolo (3), in prima battuta spiega come ricavare le curve di luce (LC) da un video di osservazione ottica; in seconda battuta spiega il metodo utilizzato per trasferire l'addestramento da LC fittizie a reali. La rete utilizzate è la 1D-CNN composta da 3 sezioni: Convolutional section; fully connected section e Object classification section.
+I due step di trasferimento sono:
+* addestramento su LC simulate e salvataggio dei pesi della Convolutional section
+* addestramento su LC reali partendo da un preaddestramento sulla prima sezione ed inizializzazione casuale sul fully connected section.
+
+L'ambiente di simulazione Blender è stato utilizzato per generare un set di dati contenente 4500 curve di luce per 13 diversi modelli di satellite.
+Per le curve di luce reale si è utilizzato il dataset pubblico del Multichannel Monitoring Telescope (MMT)  da cui sono state estratte 500 LC per ognuna delle 8 classi di satelliti utilizzate.
+Lo studio propone un iteressante metodo per correlare curve di luce reali a curve di luce simulate, permettendo di avere risultati rilevanti anche con un dataset di LC realit limitato. Tuttavia resta sempre nell'ambito della classificazione di oggetti.
+Attinenza al 75%
+
+2. [S. Mahendran H. Ali R. Vidal: 3D Pose Regression using Convolutional Neural Networks. Proceedings of the IEEE International Conference on Computer Vision Workshops(2017)](https://arxiv.org/abs/1708.05628)
 
 Utilizza una rete composta da 2 reti in successione:
 * Feature Network, classification immage in 4 categorie
@@ -28,7 +39,7 @@ Utilizza una rete composta da 2 reti in successione:
 Lo studio del pose network è sicuramente interessante ed inoltre spiega l'utilizzo di TensorFlow per disegnare la rete. 
 Attinenza al 65%
 
-[R. Linares, R. Furfaro, V. Reddy: Space objects classification via light-curve measurements using deep convolutional neural networks. The Journal of the Astronautical Sciences, (2020) - Springer](https://doi.org/10.1007/s40295-019-00208-w) 
+3. [R. Linares, R. Furfaro, V. Reddy: Space objects classification via light-curve measurements using deep convolutional neural networks. The Journal of the Astronautical Sciences, (2020) - Springer](https://doi.org/10.1007/s40295-019-00208-w) 
 
 La ricerca parla di classificazione attraverso la Convolutional Neural Network (CNN)
 * Test con 1000 LC simulate per 4 classi di satelliti (frammenti, rocket body, prismi, cuboidi)
@@ -37,7 +48,7 @@ La ricerca parla di classificazione attraverso la Convolutional Neural Network (
 Il dataset è pubblico ma su un sito russo.
 Attinenza intorno al 60% 
 
-[G. P. Badura, C. R. Valenta, B. Gunter: Convolutional Neural Networkis for Inference of Space Object Attitude Status. The Journal of the Astronautical Sciences, (2022) - Springer](https://doi.org/10.1007/s40295-022-00309-z) 
+4. [G. P. Badura, C. R. Valenta, B. Gunter: Convolutional Neural Networkis for Inference of Space Object Attitude Status. The Journal of the Astronautical Sciences, (2022) - Springer](https://doi.org/10.1007/s40295-022-00309-z) 
 
 La ricerca parla di classificazione attraverso la Convolutional Neural Network (CNN)
 * Test con 7500 LC simulate per 4 classi di manovre (puro rotolamento, accelerazione in rotazione, stabilizzazione e inattivo)
