@@ -20,6 +20,7 @@
 # Article list
 
 1. [Allworth, J.; Windrim, L.; Bennett, J.; Bryson, M. A transfer learning approach to space debris classification using observational light curve data. Acta Astronaut. (2021)](https://www.sciencedirect.com/science/article/pii/S0094576521000588)
+
 Correlato all'articolo (3), in prima battuta spiega come ricavare le curve di luce (LC) da un video di osservazione ottica; in seconda battuta spiega il metodo utilizzato per trasferire l'addestramento da LC fittizie a reali. La rete utilizzate è la 1D-CNN composta da 3 sezioni: Convolutional section; fully connected section e Object classification section.
 I due step di trasferimento sono:
 * addestramento su LC simulate e salvataggio dei pesi della Convolutional section
