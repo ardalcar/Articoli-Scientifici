@@ -19,6 +19,14 @@
 
 # Article list
 
+[S. Mahendran H. Ali R. Vidal: 3D Pose Regression using Convolutional Neural Networks. Proceedings of the IEEE International Conference on Computer Vision Workshops(2017)](https://arxiv.org/abs/1708.05628)
+
+Utilizza una rete composta da 2 reti in successione:
+* Feature Network, classification immage in 4 categorie
+* Pose Network, regressione lineare per trovare i quaternioni relativi all'orientamento dell'immagine
+Lo studio del pose network è sicuramente interessante ed inoltre spiega l'utilizzo di TensorFlow per disegnare la rete. 
+Attinenza al 65%
+
 [R. Linares, R. Furfaro, V. Reddy: Space objects classification via light-curve measurements using deep convolutional neural networks. The Journal of the Astronautical Sciences, (2020) - Springer](https://doi.org/10.1007/s40295-019-00208-w) 
 
 La ricerca parla di classificazione attraverso la Convolutional Neural Network (CNN)
@@ -32,6 +40,8 @@ Attinenza intorno al 60%
 La ricerca parla di classificazione attraverso la Convolutional Neural Network (CNN)
 * Test con 7500 LC simulate per 4 classi di manovre (puro rotolamento, accelerazione in rotazione, stabilizzazione e inattivo)
 Attinenza sempre intorno al 60%
+
+
 ---
 
 The book of why <br>
