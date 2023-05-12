@@ -24,6 +24,7 @@
 Utilizza una rete composta da 2 reti in successione:
 * Feature Network, classification immage in 4 categorie
 * Pose Network, regressione lineare per trovare i quaternioni relativi all'orientamento dell'immagine
+
 Lo studio del pose network è sicuramente interessante ed inoltre spiega l'utilizzo di TensorFlow per disegnare la rete. 
 Attinenza al 65%
 
@@ -32,6 +33,7 @@ Attinenza al 65%
 La ricerca parla di classificazione attraverso la Convolutional Neural Network (CNN)
 * Test con 1000 LC simulate per 4 classi di satelliti (frammenti, rocket body, prismi, cuboidi)
 * Test con 500 LC vere per 3 classi (Debris, Rocket body, Sat Attivo)
+
 Il dataset è pubblico ma su un sito russo.
 Attinenza intorno al 60% 
 
@@ -39,6 +41,7 @@ Attinenza intorno al 60%
 
 La ricerca parla di classificazione attraverso la Convolutional Neural Network (CNN)
 * Test con 7500 LC simulate per 4 classi di manovre (puro rotolamento, accelerazione in rotazione, stabilizzazione e inattivo)
+
 Attinenza sempre intorno al 60%
 
 
