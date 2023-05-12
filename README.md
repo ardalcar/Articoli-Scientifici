@@ -1,4 +1,6 @@
-# Articoli-Scientifici
+Articoli-Scientifici
+=====================
+
 
 
 <p align="left">
@@ -31,7 +33,7 @@ Per le curve di luce reale si è utilizzato il dataset pubblico del Multichannel
 Lo studio propone un iteressante metodo per correlare curve di luce reali a curve di luce simulate, permettendo di avere risultati rilevanti anche con un dataset di LC realit limitato. Tuttavia resta sempre nell'ambito della classificazione di oggetti.
 Attinenza al 75%
 
-2. [S. Mahendran H. Ali R. Vidal: 3D Pose Regression using Convolutional Neural Networks. Proceedings of the IEEE International Conference on Computer Vision Workshops(2017)](https://arxiv.org/abs/1708.05628)
+2. [S. Mahendran H. Ali R. Vidal: 3D Pose Regression using Convolutional Neural Networks. Proceedings of the IEEE International Conference on Computer Vision Workshops (2017)](https://arxiv.org/abs/1708.05628)
 
 Utilizza una rete composta da 2 reti in successione:
 * Feature Network, classification immage in 4 categorie
